@@ -1,0 +1,28 @@
+
+header{
+    height: 80px;
+    border: 2px dashed red
+}
+
+section {
+    min-height: 500px;
+    border: 2px dashed goldenrod
+}
+
+.container {
+    border: 2px dashed purple;
+
+}
+
+.container-fluid{
+    border: 2px dashed green
+}
+
+[class^= "col" ]{
+    border: 2px solid darkred;
+    min-height: 50px;
+}
+
+form{
+    min-height: 350px;
+}
