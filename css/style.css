@@ -1,28 +1,126 @@
 
 header{
     height: 80px;
-    border: 2px dashed red
+    /* border: 2px dashed red; */
+    background-color: #2C3E50;
+    color: #fff;
+
+    
 }
 
 section {
     min-height: 500px;
-    border: 2px dashed goldenrod
+    /* border: 2px dashed goldenrod */
 }
 
 .container {
-    border: 2px dashed purple;
+    /* border: 2px dashed purple */
 
 }
 
 .container-fluid{
-    border: 2px dashed green
+    /* border: 2px dashed green */
 }
 
 [class^= "col" ]{
-    border: 2px solid darkred;
+    /* border: 2px solid darkred; */
     min-height: 50px;
 }
 
 form{
     min-height: 350px;
+}
+
+img{
+    width: 100%;
+}
+
+
+.fa-solid.fa-star.fa-xl{
+    font-size: 35px;
+}
+
+h3{
+    padding: 20px 0;
+}
+
+/* HEADER */
+
+
+
+.head-right{
+    width:50%
+}
+
+#avatar{
+    height: 100%;
+}
+#jumbotron{
+    background-color: #1ABC9C;
+    color:#fff
+}
+
+.avatar-box{
+    max-height: 350px;
+}
+
+li{
+    list-style-type: none;
+    padding-right: 10px;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+
+
+/* PORTFOLIO */
+
+#portfolio .row{
+    margin:  0 auto;
+}
+
+
+/* ABOUT */
+#about{
+    background-color: #1ABC9C ;
+    color: #fff;
+
+}
+
+
+
+/* Contacts */
+
+#contacts ::placeholder{
+    color: #000;
+    font-size: 20px;
+}
+
+#contacts .form-control:focus {
+    box-shadow: none;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #3A546D;
+}
+
+footer .footer-bottom{
+    background-color: #2C3E50 ;
+    
+
+}
+
+.cs-icon{
+    width: 45px;
+    height: 48px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    margin-top:10px
+  
 }
